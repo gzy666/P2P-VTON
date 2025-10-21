@@ -9,3 +9,16 @@ conda activate p2p_vton
 ```
 pip install torch==1.11.0+cu113
 ```
+# Input
+Place the input clothing image and person image in ```input_directory/images```, and name them ```R``` and ```T``` respectively. Place their corresponding mask images in ```input_directory/masks```, and also name them ```R``` and ```T```.
+# Inference
+```
+python main.py \
+--data.input_dir ./input_directory \
+--data.output_dir ./out \
+--data.device 0 \
+--data.save_stg1_debug_image False \
+--mea.mea_scale 15.0 \
+--mea.mea_enhance 1.25 \
+```
+## The running results can be found in ```out/stg_2```
