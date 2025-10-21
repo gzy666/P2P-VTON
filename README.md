@@ -21,4 +21,4 @@ python main.py \
 --mea.mea_scale 15.0 \
 --mea.mea_enhance 1.25 \
 ```
-## The running results can be found in ```out/stg_2```
+The running results can be found in ```out/stg_2```
