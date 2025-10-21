@@ -1,7 +1,7 @@
 # P2P-VTON
 # Environment
-```
 ## Run the following code to install the runtime environment.
+```
 conda env create -f environment/environment.yaml
 conda activate p2p_vton
 ```
